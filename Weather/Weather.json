@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 78.6022,
+    "lat": 20.7453
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 314.44,
+    "feels_like": 313.03,
+    "temp_min": 314.44,
+    "temp_max": 314.44,
+    "pressure": 1004,
+    "humidity": 16,
+    "sea_level": 1004,
+    "grnd_level": 974
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.15,
+    "deg": 214,
+    "gust": 3.46
+  },
+  "clouds": {
+    "all": 5
+  },
+  "dt": 1651652796,
+  "sys": {
+    "country": "IN",
+    "sunrise": 1651623232,
+    "sunset": 1651669849
+  },
+  "timezone": 19800,
+  "id": 1252942,
+  "name": "Wardha",
+  "cod": 200
+}
