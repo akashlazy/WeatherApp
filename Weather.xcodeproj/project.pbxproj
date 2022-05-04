@@ -29,6 +29,7 @@
 		6D51231E2822588000836710 /* LocationWeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51231D2822588000836710 /* LocationWeatherRequest.swift */; };
 		6D5123202822735300836710 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D51231F2822735300836710 /* Weather.json */; };
 		6D5123232822744300836710 /* JsonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5123222822744300836710 /* JsonExtension.swift */; };
+		6D51232528227A4C00836710 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51232428227A4C00836710 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6D51231D2822588000836710 /* LocationWeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWeatherRequest.swift; sourceTree = "<group>"; };
 		6D51231F2822735300836710 /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 		6D5123222822744300836710 /* JsonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtension.swift; sourceTree = "<group>"; };
+		6D51232428227A4C00836710 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				6D5123222822744300836710 /* JsonExtension.swift */,
+				6D51232428227A4C00836710 /* LocationService.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				6D51230F2822391500836710 /* CityWeather.swift in Sources */,
 				6D51230B282231B100836710 /* EncodableExtension.swift in Sources */,
 				6D5122BF28222AC700836710 /* AppDelegate.swift in Sources */,
+				6D51232528227A4C00836710 /* LocationService.swift in Sources */,
 				6D51231328223CE900836710 /* WeatherApiRepository.swift in Sources */,
 				6D5122C128222AC700836710 /* SceneDelegate.swift in Sources */,
 				6D51231628223DA400836710 /* WeatherRepository.swift in Sources */,
