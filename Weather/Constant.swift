@@ -12,4 +12,5 @@ struct ApiEndpoints {
     static let apiKey = "d7a26e4cd452c49f186ffdc84008a955"
     
     static let weather = baseURL + "/weather"
+    static let imageURL = "https://openweathermap.org/img/wn/"
 }
