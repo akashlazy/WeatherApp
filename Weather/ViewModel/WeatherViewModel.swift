@@ -33,7 +33,7 @@ class WeatherViewModel {
     
     private func conversion(_ temp: Double) -> String {
         if UserDefaults.temperatureUnit {
-            return String(format: "%.0fF",((temp - 273.15) * 1.8) + 32.0)
+            return String(format: "%.0f°",((temp - 273.15) * 1.8) + 32.0)
         }
         return String(format: "%.0f°", temp - 273.15)
     }

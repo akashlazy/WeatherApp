@@ -25,12 +25,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        weatherVM.loadWeather { [weak self] success in
-//            self?.displayUI()
-//        }
+        weatherVM.loadWeather { [weak self] success in
+            self?.displayUI()
+        }
         
-        setUpLocation()
-        displayUI()
+//        displayUI()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+//        setUpLocation()
     }
     
     private func setUpLocation() {
